@@ -290,7 +290,7 @@ llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.3-70b-versatile")
 # )
 # llm = ChatGoogleGenerativeAI(
 #     model="gemini-1.5-pro",
-#     api_key= 'AIzaSyAIf-HBQL-26g5y6I-K_8HfbHD3ep3HwsU',
+#     api_key= '',
 #     temperature=0,
 #     max_tokens=None,
 #     timeout=None,
