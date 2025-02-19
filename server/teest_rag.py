@@ -15,7 +15,7 @@
 # # # from langchain_huggingface import HuggingFaceEmbeddings
 # # from langchain_community.vectorstores import FAISS
 
-# # groq_api_key = "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"
+# # groq_api_key = ""
 # # llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama3-groq-70b-8192-tool-use-preview")
 
 
@@ -280,7 +280,7 @@ from datetime import date
 # Returns the current local date
 today = date.today()
 
-groq_api_key = "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"
+groq_api_key = ""
 llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.3-70b-versatile")
 # from langchain_google_genai import ChatGoogleGenerativeAI
 # llm = ChatOllama(
@@ -297,7 +297,7 @@ llm = ChatGroq(groq_api_key=groq_api_key, model_name="llama-3.3-70b-versatile")
 #     max_retries=2,
 #     # other params...
 # )
-# llm = model = ChatOpenAI(model="GPT-4o mini", temperature=0,api_key='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')
+# llm = model = ChatOpenAI(model="GPT-4o mini", temperature=0,api_key='')
 PLACE1 = ".\full"
 
 
